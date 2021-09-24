@@ -39,6 +39,7 @@ struct ContentView: View {
       OnboardingView()
       #endif
     }
+    .symbolRenderingMode(.multicolor)
   }
   
   func setInitialAccountView() {
